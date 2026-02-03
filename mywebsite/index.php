@@ -6,7 +6,7 @@
 </head>
 <body>
     <?php
-        echo "This is text written in PHP!";
+        echo "This is text written in PHP!"; 
     ?>
 </body>
 </html>
