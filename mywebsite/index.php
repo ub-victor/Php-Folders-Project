@@ -5,8 +5,11 @@
     <title>Document</title>
 </head>
 <body>
+    <p>This is a <?php echo "awesome"; ?></p>
     <?php
         echo "This is text written in PHP!";
     ?>
 </body>
 </html>
+
+<!-- 30:00 -->
