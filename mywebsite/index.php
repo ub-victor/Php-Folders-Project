@@ -5,7 +5,7 @@
     <title>Document</title>
 </head>
 <body>
-    <p>This is<?php echo "awesome"; ?></p>
+    <p>This is<?php echo " awesome"; ?></p>
     <?php 
         $name= "Ushindi Bihame";
         echo $name
