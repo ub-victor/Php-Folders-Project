@@ -7,7 +7,8 @@
 <body>
     <p>This is<?php echo " awesome"; ?></p>
     <?php 
-       $string = "Ushindi"
+       $string = "Ushindi";
+       $int = 1234;
     ?>
 </body>
 </html>
