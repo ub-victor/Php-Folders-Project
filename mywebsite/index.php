@@ -9,7 +9,7 @@
     <?php 
         $name= "Ushindi Bihame";
         $fullName= "Ushindi Bihame Victoire";
-        echo $name +" "+ $fullName;
+        echo $name $fullName;
     ?>
 </body>
 </html>
