@@ -5,7 +5,7 @@
     <title>Document</title>
 </head>
 <body>
-    <p>This is a <?php echo "awesome"; ?></p>
+    <p>This is<?php echo "awesome"; ?></p>
     <?php
         echo "This is text written in PHP!";
     ?>
