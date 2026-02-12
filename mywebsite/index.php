@@ -9,6 +9,9 @@
     <?php 
        $string = "Ushindi";
        $int = 1234;
+       $float = 2.5678;
+       $rbool = true;
+
     ?>
 </body>
 </html>
