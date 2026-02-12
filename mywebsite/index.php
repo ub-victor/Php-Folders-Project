@@ -17,7 +17,7 @@
        $names = array("Vick", "Josue", "Alice", "Frida", "Frida");
 
        // Object type
-       $object = new Car();
+      // $object = new Car();
 
        echo $names;
 
