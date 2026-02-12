@@ -7,6 +7,7 @@
 <body>
     <p>This is<?php echo " awesome"; ?></p>
     <?php 
+        // scalar types (contain one value)
        $string = "Ushindi";
        $int = 1234;
        $float = 2.5678;
