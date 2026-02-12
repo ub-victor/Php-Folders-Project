@@ -8,7 +8,8 @@
     <p>This is<?php echo " awesome"; ?></p>
     <?php 
         $name= "Ushindi Bihame";
-        echo $name
+        $fullName= "Ushindi Bihame Victoire";
+        echo $name, $fullName;
     ?>
 </body>
 </html>
