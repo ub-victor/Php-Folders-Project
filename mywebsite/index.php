@@ -6,8 +6,8 @@
 </head>
 <body>
     <p>This is<?php echo "awesome"; ?></p>
-    <?php
-        echo "This is text written in PHP!";
+    <?php 
+        $name= "Ushindi Bihame";
     ?>
 </body>
 </html>
