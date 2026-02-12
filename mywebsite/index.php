@@ -16,6 +16,8 @@
        // Array type
        $names = array("Vick", "Josue", "Alice", "Frida", "Frida");
 
+       // Object type
+
        echo $names;
 
     ?>
