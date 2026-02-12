@@ -13,6 +13,11 @@
        $float = 2.5678;
        $rbool = true;
 
+       // Array type
+       $names = array("Vick", "Josue", "Alice", "Frida", "Frida");
+
+       echo $names;
+
     ?>
 </body>
 </html>
