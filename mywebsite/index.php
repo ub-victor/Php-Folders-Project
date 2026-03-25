@@ -9,7 +9,7 @@
     <?php 
         $name = "Dani Krossing";
 
-        <p>Hi! My name is <?php  >, and I'm learning PHP! </p>
+        <p>Hi! My name is <?php echo $name ?>, and I'm learning PHP! </p>
     ?>
 </body>
 </html>
