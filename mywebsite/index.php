@@ -7,20 +7,9 @@
 <body>
     <p>This is<?php echo " awesome"; ?></p>
     <?php 
-        // scalar types (contain one value)
-       $string = "Ushindi";
-       $int = 1234;
-       $float = 2.5678;
-       $rbool = true;
+        $name = "Dani Krossing";
 
-       // Array type
-       $names = array("Vick", "Josue", "Alice", "Frida", "Frida");
-
-       // Object type
-      // $object = new Car();
-
-       echo $names;
-
+        <p>Hi! My name is <?php >, and I'm learning PHP! </p>
     ?>
 </body>
 </html>
