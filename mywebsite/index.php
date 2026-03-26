@@ -6,12 +6,15 @@
 </head>
 <body>
     <?php 
-        $name = "Dani Krossing";
+        $name = "Ushindi Bihame VIcotir";
     ?>
      <p>Hi! My name is <?php echo $name?>, and I'm learning PHP! </p>
 
     <?php  
         echo "Hello World"
     ?>
+
+    $n1 = 30;
+    $n2 = 60;
 </body>
 </html>
