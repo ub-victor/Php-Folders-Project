@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect("localhost","root","Ushindi123!","auca");
+$con=mysqli_connect("localhost","root","Ushindi123!","april2");
 // Check connection
 if (mysqli_connect_errno()) {
 echo "Failed to connect to MySQL: " . mysqli_connect_error();
@@ -10,8 +10,8 @@ $address = mysqli_real_escape_string($con, $_POST['add']);
 $country = mysqli_real_escape_string($con, $_POST['coun']);
 $position = mysqli_real_escape_string($con, $_POST['pos']);
 $salary = mysqli_real_escape_string($con, $_POST['sal']);
-$sql="INSERT INTO Persons (FirstName, LastName, Age)
-VALUES ('$firstname', '$lastname', '$age')";
+$sql="INSERT INTO records (Names Addresse, Country, Position, Salary)
+VALUES ('$name', '$address', '$country', '$position', '$salary')";
 if (!mysqli_query($con,$sql)) {
 die('Error: ' . mysqli_error($con));
 }
