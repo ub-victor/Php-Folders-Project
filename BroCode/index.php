@@ -24,5 +24,5 @@
     $employed = true;
     echo "Hello {$name} <br>";
     echo "Your pizza is \${$price}";
-    echo "is he employed: {$employed}";
+    echo "<br> Is he employed: {$employed}";
 ?>
