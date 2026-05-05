@@ -6,6 +6,10 @@
     <title>Resto Challenge</title>
 </head>
 <body>
+    <?php 
+    $item = "Pizza";
+    $price = 5.99;
+    ?>
     <form action="resto.php" method="post">
         <h6>How many Pizza you want , one cost: <?php echo "{$price}"; ?> </h6>
         <label>Quantity: </label><br>
