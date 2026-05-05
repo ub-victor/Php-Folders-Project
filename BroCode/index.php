@@ -20,6 +20,7 @@
 <?php
     $name = "Victoire Ushindi <br>";
     echo $name;
+    $price = 4.55;
     echo "Hello {$name} <br>";
     echo "Your pizza is \${$price}";
 ?>
