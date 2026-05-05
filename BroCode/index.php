@@ -80,7 +80,7 @@
     echo "<br> {$capitals["USA"]} <br>";
 
     foreach($capitals as $capital){
-        echo $food . "<br>";
+        echo $capital . "<br>";
     }
 
 ?>
