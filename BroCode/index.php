@@ -88,8 +88,9 @@
         echo "{$key} {$value} <br>";
     }
 
-    //
+    // to modify the value of a key
     $capitals["USA"] = "Las Vegas";
+    
 
 
 ?>
