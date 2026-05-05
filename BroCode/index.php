@@ -100,6 +100,12 @@
         echo "{$key} <br>";
     }
 
+    $values = array_values($capitals);
+    echo "<br>";
+    foreach($values as $value){
+        echo "{$value} <br>";
+    }
+
 
 
 
