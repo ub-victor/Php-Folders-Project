@@ -47,7 +47,7 @@
     $foods = array("Apple", "orange", "banana", "coconut");
     echo $foods[0] . "<br>";
     $foods[0] = "Pineapple";
-    array_push($foods, "pineapple")
+    array_push($foods, "pineapple");
     echo "<br> Let us use the foreach  <br>";
 
     foreach($foods as $food){
