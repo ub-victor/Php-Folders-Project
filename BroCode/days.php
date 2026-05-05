@@ -1,5 +1,5 @@
 <?php
-$day = date("l"); //returns the full day name 
+$day = date("l"); //returns the full day name
 
 switch($day) {
     case "Monday":
