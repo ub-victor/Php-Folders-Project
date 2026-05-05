@@ -43,7 +43,8 @@
 
 <?php 
 // array = "variable" which can hold more than one value at a time
-    echo "";
+    echo "Array";
+    $foods = array("Apple", "orange", "banana", "coconut");
 
 ?>
 
