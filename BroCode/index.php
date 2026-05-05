@@ -73,6 +73,7 @@
     $capitals = array(
         "USA"=> "Washington D.C",
         "Japan"=> "Kyoto",
+        "South Korea"=> "Seoul",
     );
 
 ?>
