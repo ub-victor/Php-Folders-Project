@@ -6,6 +6,10 @@
     <title>Document</title>
 </head>
 <body>
+
+    <form action="while_loop.php" method="post">
+        
+    </form>
     
 </body>
 </html>
