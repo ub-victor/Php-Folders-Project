@@ -48,6 +48,10 @@
     echo $foods[0] . "<br>";
     echo "<br> Let us use the foreach  <br>";
 
+    foreach($foods as $food){
+        echo $food . "<br>";
+    }
+
 
 
 ?>
