@@ -77,5 +77,7 @@
         "Indea"=> "New Delhi"
     );
 
+    echo "<br> {$capitals["USA"]}";
+
 ?>
 
