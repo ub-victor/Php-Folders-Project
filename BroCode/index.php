@@ -14,7 +14,7 @@
         <label for="username">User name: </label>
         <input type="text" name="username">
         <label for="password">User name: </label>
-        <input type="text" name="username">
+        <input type="text" name="">
     </form>
 </body>
 </html>
