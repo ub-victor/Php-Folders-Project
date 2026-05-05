@@ -18,7 +18,7 @@
     </form>
 
     <?php
-        $quantity = $_GET['quantity'];
+        $quantity = $_POST['quantity'];
         $total = null;
 
         $total = $quantity * $price;
