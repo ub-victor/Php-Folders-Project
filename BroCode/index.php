@@ -46,7 +46,7 @@
     echo "Array <br>";
     $foods = array("Apple", "orange", "banana", "coconut");
     echo $foods[0] . "<br>";
-    echo "Array <br>";
+    echo "<br> Let us use the foreach  <br>";
 
 
 
