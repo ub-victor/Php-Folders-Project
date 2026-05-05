@@ -46,6 +46,7 @@
     echo "Array <br>";
     $foods = array("Apple", "orange", "banana", "coconut");
     echo $foods[0] . "<br>";
+    // to rename a certain element in the array 
     $foods[0] = "Pineapple";
     // add an item in the array we use the array_push
     array_push($foods, "pineapple");
