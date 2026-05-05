@@ -8,7 +8,7 @@
 <body>
 
     <form action="while_loop.php" method="post">
-        <input type="submit">
+        <input type="submit" name="stop" value="stop">
     </form>
     
 </body>
