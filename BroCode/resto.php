@@ -12,5 +12,10 @@
         <input type="text" name="quantity">
         <input type="submit" value="total">
     </form>
+
+    <?php 
+        
+    ?>
+
 </body>
 </html>
