@@ -74,6 +74,7 @@
         "USA"=> "Washington D.C",
         "Japan"=> "Kyoto",
         "South Korea"=> "Seoul",
+        "Indea"=> "New Delhi"
     );
 
 ?>
