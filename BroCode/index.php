@@ -50,7 +50,7 @@
     // $foods[0] = "Pineapple";
     // add an item in the array we use the array_push
     // to remove the first element we use array_shift and the last one we use pop
-    // array_pop($food);
+    // array_pop($foods);
     array_shift($foods);
     array_push($foods, "pineapple");
     echo "<br> Let us use the foreach  <br>";
