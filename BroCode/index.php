@@ -19,5 +19,6 @@
 
 <?php
     $name = "Victoire Ushindi";
-    
+    echo $name;
+    echo "Hello {$name}";
 ?>
