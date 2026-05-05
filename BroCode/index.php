@@ -94,8 +94,8 @@
     $capitals["China"] = "Beihing";
     // array_pop($capitals)
     // to get all the key of the array
-    $keys = array_keys($capitals);
-    echo $keys . "<br>";
+    $keyss = array_keys($capitals);
+
 
 
 
