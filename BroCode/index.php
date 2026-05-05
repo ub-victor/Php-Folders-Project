@@ -18,5 +18,6 @@
 <!-- Variables -->
 
 <?php
-    $name = "Victoire Ushindi"
+    $name = "Victoire Ushindi";
+    
 ?>
