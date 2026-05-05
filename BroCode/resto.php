@@ -7,7 +7,7 @@
 </head>
 <body>
     <form action="resto.php" method="post">
-        <h6>How many Pizza you want , one cost: <?php echo  ?> </h6>
+        <h6>How many Pizza you want , one cost: <?php echo "{$price}";  ?> </h6>
         <label>Quantity: </label><br>
         <input type="text" name="quantity">
         <input type="submit" value="total">
