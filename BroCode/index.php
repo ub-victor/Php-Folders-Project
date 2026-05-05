@@ -22,9 +22,11 @@
     echo $name;
     $price = 4.55;
     $employed = true;
+    $sum = 3 + 3;
     echo "Hello {$name} <br>";
     echo "Your pizza is \${$price}";
     echo "<br> Is he employed: {$employed}";
 
-    echo "";
+    
+    echo "the  sum of 3 + 3 = {$sum}";
 ?>
