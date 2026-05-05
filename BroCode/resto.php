@@ -18,6 +18,8 @@
         $price = 5.99;
         $quantity = $_POST['quantity'];
         $total = null;
+
+        $total = $quantity * $price;
     ?>
 
 </body>
