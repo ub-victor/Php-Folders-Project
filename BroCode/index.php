@@ -20,7 +20,7 @@
 </body>
 </html>
 <?php 
-    echo $_GET ["username"] . "<br>";
+    echo "Your user name is {$_GET ["username"]}";
     echo $_GET ["password"] . "<br>";
 ?>
 
