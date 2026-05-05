@@ -21,7 +21,7 @@
 </html>
 <?php 
     echo "Your user name is: {$_GET ["username"]}<br>";
-    echo $_GET ["password"] . "<br>";
+    echo "Your{$_GET ["password"]}";
 ?>
 
 
