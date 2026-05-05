@@ -84,7 +84,7 @@
     }
     echo "<br> to get key values <br>";
     foreach($capitals as $key => $value){
-        echo ""
+        echo "";
     }
 
 
