@@ -89,9 +89,13 @@
     }
 
     // to modify the value of a key
-    $capitals["USA"] = "Las Vegas";
+    // $capitals["USA"] = "Las Vegas";
     // To add a a key value to a list
     $capitals["China"] = "Beihing";
+    // array_pop($capitals)
+    // to get all the key of the array
+    
+
 
 
 ?>
