@@ -49,7 +49,7 @@
     echo "<br> Let us use the foreach  <br>";
 
     foreach($foods as $food){
-        echo $food . "<br>"; 
+        echo $food . "<br>";
     }
 
 
