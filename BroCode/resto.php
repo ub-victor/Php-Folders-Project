@@ -6,6 +6,8 @@
     <title>Resto Challenge</title>
 </head>
 <body>
-    
+    <form action="resto.php" method="post">
+        
+    </form>
 </body>
 </html>
