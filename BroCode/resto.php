@@ -21,7 +21,7 @@
         $quantity = $_POST['quantity'];
         $total = null;
 
-        $total = $quantity * $price; 
+        $total = $quantity * $price;
 
         echo "You have ordered {$quantity} x {$item}/s <br>" ;
         echo "Your total is: \${$total}";
