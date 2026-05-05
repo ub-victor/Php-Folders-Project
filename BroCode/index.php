@@ -10,9 +10,7 @@
     <title>Document</title>
 </head>
 <body>
-    <br>
-    <button>order Pizza</button>
-    <br>
+    <form action="index.php"></form>
 </body>
 </html>
 <!-- Variables -->
