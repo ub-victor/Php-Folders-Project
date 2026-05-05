@@ -90,7 +90,8 @@
 
     // to modify the value of a key
     $capitals["USA"] = "Las Vegas";
-    
+    // To add a a key value to a list
+    $capitals["China"] = "Beihing";
 
 
 ?>
