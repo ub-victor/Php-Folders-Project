@@ -17,9 +17,7 @@
         <input type="submit" value="total">
     </form>
 
-    <?php 
-        $item = "Pizza";
-        $price = 5.99;
+    <?php
         $quantity = $_GET['quantity'];
         $total = null;
 
