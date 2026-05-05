@@ -71,6 +71,7 @@
     // item = > price
 
     $capitals = array(
+        "USA"=> "Washington D.C",
         
     );
 
