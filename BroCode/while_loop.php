@@ -25,7 +25,7 @@ while($running){
     if(isset($_POST['stop'])){
         $running = false;
     }else{
-        // 
+        // wait 1 second
     }
     
 }
