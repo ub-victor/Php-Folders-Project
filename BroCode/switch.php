@@ -1,6 +1,7 @@
+<?php
 $grade = "A";
 
-switch($grade){
+switch($grade) {
     case "A":
         echo "You did well";
         break;
@@ -19,3 +20,4 @@ switch($grade){
     default:
         echo $grade . " is not valid";
 }
+?>
