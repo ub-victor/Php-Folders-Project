@@ -70,7 +70,9 @@
     // id => username
     // item = > price
 
-    
+    $capitals = array(
+        
+    );
 
 ?>
 
