@@ -24,6 +24,8 @@ while($running){
 
     if(isset($_POST['stop'])){
         $running = false;
+    }else{
+        // 
     }
     
 }
