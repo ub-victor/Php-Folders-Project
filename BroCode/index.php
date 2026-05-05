@@ -82,7 +82,7 @@
     foreach($capitals as $capital){
         echo $capital . "<br>";
     }
-    echo "<br>  <br>";
+    echo "<br> to get key values <br>";
 
 
 ?>
