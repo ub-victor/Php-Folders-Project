@@ -88,6 +88,7 @@
         echo "{$key} {$value} <br>";
     }
 
+    //
     $capitals["USA"] = "Las Vegas";
 
 
