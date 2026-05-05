@@ -45,6 +45,7 @@
 // array = "variable" which can hold more than one value at a time
     echo "Array";
     $foods = array("Apple", "orange", "banana", "coconut");
+    echo $foods[0];
 
 ?>
 
