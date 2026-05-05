@@ -21,6 +21,7 @@
     $name = "Victoire Ushindi <br>";
     echo $name;
     $price = 4.55;
+    $employed = true;
     echo "Hello {$name} <br>";
     echo "Your pizza is \${$price}";
 ?>
