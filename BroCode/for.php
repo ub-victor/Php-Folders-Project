@@ -7,7 +7,9 @@
 </head>
 <body>
     <form action="for.php" method="post">
-        
+        <label>Enter a number to count to:</label>
+        <input type="text" name="counter">
+        <input type="submit" value="start">
     </form>
 </body>
 </html>
