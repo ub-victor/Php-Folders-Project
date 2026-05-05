@@ -77,7 +77,7 @@
         "Indea"=> "New Delhi"
     );
 
-    // echo "<br> {$capitals["USA"]} <br>";
+    echo "<br> {$capitals["USA"]} <br>";
 
     foreach($capitals as $capital){
         echo $capital . "<br>";
