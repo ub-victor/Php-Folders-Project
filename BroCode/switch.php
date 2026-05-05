@@ -1,4 +1,3 @@
-
 $grade = "A";
 
 switch($grade){
