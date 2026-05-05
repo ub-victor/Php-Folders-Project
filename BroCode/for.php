@@ -16,5 +16,10 @@
 
 <?php 
 
+$counter = $_POST["counter"];
+
+for($i = 0; $i< $counter; $i++){
+    echo $i . "<br>";
+}
 
 ?>
