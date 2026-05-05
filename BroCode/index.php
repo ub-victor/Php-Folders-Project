@@ -25,4 +25,6 @@
     echo "Hello {$name} <br>";
     echo "Your pizza is \${$price}";
     echo "<br> Is he employed: {$employed}";
+
+    echo "";
 ?>
