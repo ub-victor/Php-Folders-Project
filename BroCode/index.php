@@ -109,7 +109,7 @@
     // we can flip keys with values
     $capitals = array_flip($capitals);
 
-    foreach($capitals as $Key => $value){
+    foreach($capitals as $key => $value){
         echo "{$key} = {$value} <br>";
     }
 
