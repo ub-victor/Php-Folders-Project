@@ -64,7 +64,11 @@
 ?>
 
 <?php 
+    // associative array = An array made of Key=> value pairs
 
+    // countries => capitals
+    // id => username
+    // item = > price
 
 ?>
 
