@@ -27,6 +27,7 @@ while($running){
     }else{
         // wait 1 second
         $seconds++;
+        echo $seconds . "<br/>";
     }
     
 }
