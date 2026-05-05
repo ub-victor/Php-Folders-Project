@@ -10,7 +10,10 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="index.php"></form>
+    <form action="index.php">
+        <label for="username">User name: </label>
+        <input type="text" name="username">
+    </form>
 </body>
 </html>
 <!-- Variables -->
