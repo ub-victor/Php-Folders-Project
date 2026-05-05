@@ -110,7 +110,7 @@
     $capitals = array_flip($capitals);
 
     foreach($capitals as $Key => $value){
-        echo "{$key} = {value} <br>";
+        echo "{$key} = {$value} <br>";
     }
 
 
