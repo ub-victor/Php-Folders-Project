@@ -21,6 +21,5 @@
     $name = "Victoire Ushindi <br>";
     echo $name;
     echo "Hello {$name} <br>";
-    $price = 4.55;
     echo "Your pizza is \${$price}";
 ?>
