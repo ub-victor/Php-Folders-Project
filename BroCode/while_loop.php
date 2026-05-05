@@ -21,6 +21,10 @@ $seconds = 0;
 $running = true;
 
 while($running){
+
+    if(isset($_POST['stop'])){
+        $running = false;
+    }
     
 }
 
