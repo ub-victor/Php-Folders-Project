@@ -95,7 +95,7 @@
     // array_pop($capitals)
     // to get all the key of the array
     $keys = array_keys($capitals);
-    echo "<br>"
+    echo "<br>";
     foreach($keys as $key){
         echo "{$key} <br>";
     }
