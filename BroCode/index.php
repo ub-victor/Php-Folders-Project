@@ -47,6 +47,7 @@
     $foods = array("Apple", "orange", "banana", "coconut");
     echo $foods[0] . "<br>";
     $foods[0] = "Pineapple";
+    // add an item in the array we use the array_push
     array_push($foods, "pineapple");
     echo "<br> Let us use the foreach  <br>";
 
