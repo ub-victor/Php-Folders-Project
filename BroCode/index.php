@@ -1,6 +1,6 @@
 <?php
     echo "Hello World!";
-    echo '<button>Submit!</button>';
+    echo '<button>Submit!</button> <br>';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -32,10 +32,6 @@
     echo "<br> Is he employed: {$employed}<br>";
 
     
-    echo "<br>the  sum of 3 + 3 = {$sum}";
+    echo "<br>the  sum of 3 + 3 = {$sum} <br>";
 ?>
 
-
-<?php 
-
-?>
