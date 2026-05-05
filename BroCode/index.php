@@ -12,7 +12,7 @@
 <body>
     <form action="index.php" method="get">
         <label for="username">User name: </label><br>
-        <input type="text" name="username"><br>
+        <input type="text" class="username" name="username"><br>
         <label for="password">Password: </label><br>
         <input type="password" name="password"><br>
         <input type="submit" value="Log in">
