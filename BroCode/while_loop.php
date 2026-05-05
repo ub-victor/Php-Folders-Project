@@ -22,7 +22,7 @@ $running = true;
 
 while($running){
 
-    if(isset($_POST['stop'])){ //Did the user click the stop button and send it to the server?
+    if(isset($_POST['swtop'])){ //Did the user click the stop button and send it to the server?
         $running = false;
     }else{
         // wait 1 second
