@@ -82,6 +82,8 @@
     foreach($capitals as $capital){
         echo $capital . "<br>";
     }
+    echo "<br>";
+    
 
 ?>
 
