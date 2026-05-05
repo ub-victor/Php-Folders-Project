@@ -82,7 +82,8 @@
     foreach($capitals as $capital){
         echo $capital . "<br>";
     }
-    echo "<br> to get key values <br>";
+    echo "<br> To get key values <br>";
+    echo "<br>";
     foreach($capitals as $key => $value){
         echo "{$key} {$value} <br>";
     }
