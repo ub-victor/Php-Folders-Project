@@ -14,7 +14,10 @@
     </form>
 
     <?php 
-        
+        $item = "Pizza";
+        $price = 5.99;
+        $quantity = $_POST['quantity'];
+        $total = null;
     ?>
 
 </body>
