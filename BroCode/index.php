@@ -13,7 +13,7 @@
     <form action="index.php">
         <label for="username">User name: </label><br>
         <input type="text" name="username"><br>
-        <label for="password">User name: </label>
+        <label for="password">User name: </label><br>
         <input type="text" name="password">
 
     </form>
