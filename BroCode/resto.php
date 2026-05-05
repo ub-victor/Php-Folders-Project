@@ -22,6 +22,7 @@
         $total = $quantity * $price;
 
         echo "You have ordered {$quantity} x {$item}/s";
+        echo "Your total is: \${$total}";
     ?>
 
 </body>
