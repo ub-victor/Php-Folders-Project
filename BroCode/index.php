@@ -42,7 +42,7 @@
 ?>
 
 <?php 
-// 
+// array = "variable" which can hold more than one value at a time
     echo "";
 
 ?>
