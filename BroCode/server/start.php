@@ -21,5 +21,7 @@
 // foreach($_SERVER as $key => $value){
 //     echo "{$key} = {$value} <br>";
 // }
-if($_SERVER["REQUEST_METHOD"]== "POST")
+if($_SERVER["REQUEST_METHOD"]== "POST"){
+    echo "Hello";
+}
 ?>
