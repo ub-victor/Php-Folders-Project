@@ -61,7 +61,10 @@ That’s why we don’t create $_POST yourself
     $password = $_POST['password'];
 
     if(empty($username)){
+        echo "Username is missing";
+    }elseif(empty($password)){
         echo "";
     }
+
     }
 ?>
