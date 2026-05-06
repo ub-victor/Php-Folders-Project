@@ -1,16 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Form</title>
 </head>
 <body>
-    <form action="email_password.php" method="post">
-        username: <br>
-        <input type="text" name="username"><br>
-        <input type="submit" name="login" value="login">
 
-    </form>
+<h2>Register</h2>
+
+<form action="string_method.php" method="POST">
+
+    Email:
+    <input type="text" name="email"><br><br>
+
+    Password:
+    <input type="password" name="password"><br><br>
+
+    <button type="submit">Submit</button>
+
+</form>
+
 </body>
 </html>
+
+
+<?php 
+
+
+?>
