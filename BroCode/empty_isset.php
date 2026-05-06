@@ -44,6 +44,9 @@
     "login" => "Login"
 ];
 
+That’s why we don’t create $_POST yourself
+👉 PHP does it for us
+
 
 -->
 
