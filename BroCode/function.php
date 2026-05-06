@@ -7,7 +7,7 @@
 
     birthday("Victor", 21);
     echo "<br>";
-    birthday("Winner", 26;
+    birthday("Winner", 26);
 
 
 
