@@ -12,6 +12,7 @@ try{
     echo "Could not connect!";
 }
 if($conn){
-    echo "Database connected successfully!";
+    echo "Database connected successfully! <br>";
+    echo "<br>";
 }
 ?>
