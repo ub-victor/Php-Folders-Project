@@ -5,7 +5,7 @@
     <title>radio button</title>
 </head>
 <body>
-    <form method="post" action="">
+    <form method="post" action="radio_buttons.php">
     <input type="radio" name="credit_card" value="Visa">Visa <br>
     <input type="radio" name="credit_card" value="Mastercard">Mastercard<br>
     <input type="radio" name="credit_card" value="American Express">American Express<br>
