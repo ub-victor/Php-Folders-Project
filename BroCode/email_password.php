@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="email_password.php" method="post">
+        
+
+    </form>
 </body>
 </html>
