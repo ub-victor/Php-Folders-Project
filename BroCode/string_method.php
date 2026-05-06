@@ -1,7 +1,7 @@
 <?php
 
 $text = "Hello World";
-echo
+echo $text . "<br>";
 
 // 1. String length
 echo "Length: " . strlen($text) . "<br>";
