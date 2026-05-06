@@ -8,7 +8,7 @@ $sql = "INSERT INTO users (user, password)
 try{
 
 }catch(mysqli_sql_exception){
-    echo "Could not register user"
+    echo "Could not register user";
 }
 // Closes database connection.
 mysqli_close($conn);
