@@ -9,6 +9,8 @@
         echo $row["id"] . "<br>";
         echo $row["user"] . "<br>";
         echo $row["reg_date"] . "<br>";
+    }else {
+        echo "No result found";
     }
     mysqli_close($conn);
 ?>
