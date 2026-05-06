@@ -12,12 +12,13 @@
 </head>
 <body>
     This is the login Page <br>
-    <a href="home.php">This goes to the Home Page</a>
+    <a href="home.php">This goes to the Home Page</a> <br>
 </body>
 </html>
 
 <?php 
-    $_SESSION["username"] = "BroCode";
+    echo "<br>";
+    $_SESSION["username"] = "Ushindi";
     $_SESSION["password"] = "Ushindi@123!";
 
     echo $_SESSION["username"] . "<br>";
