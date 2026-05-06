@@ -8,7 +8,8 @@ $sql = "INSERT INTO users (user, password)
 try{
     //Sends the SQL command to MySQL. which database connection and SQL command to execute
     mysqli_query($conn, $sql);
-    echo "User is now registered";
+    echo "<br>";
+    echo "<br>User is now registered";
 
 }catch(mysqli_sql_exception){
     echo "Could not register user";
