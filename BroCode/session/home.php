@@ -22,7 +22,9 @@
     echo $_SESSION["password"] . "<br>";
 
 
-    if(isset($_POST["logout"]))
+    if(isset($_POST["logout"])){
+        
+    }
 
 
 ?>
