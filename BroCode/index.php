@@ -120,12 +120,12 @@
         // empty() = Returns True if a variable is not declared, false, null, ""
 
         echo "<br>";
-        $person = null;
+        $person = "";
 
         if(isset($person)){
-            echo "This variable his variable is NOT set <br>";
+            echo "This variable is set<br>";
         }else{
-            echo "";
+            echo "This variable is Not set";
         }
     
     ?>
