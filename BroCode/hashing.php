@@ -5,7 +5,7 @@
 
     // echo $hash;
     if(password_verify("victoire", $hash)){
-        echo "You are logged in!"
+        echo "You are logged in!";
     }
 
 ?>
