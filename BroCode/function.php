@@ -5,6 +5,8 @@
         echo "you are  {$age} years old <br>";
     }
 
+    birthday("Victor", 21);
+
 
 
 
