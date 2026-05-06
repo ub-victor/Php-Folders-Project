@@ -118,6 +118,8 @@
     <?php 
         // isset() = Returns True if a variable is declared and not null
         // empty() = Returns True if a variable is not declared, false, null, ""
+
+        echo "<br>";
     
     ?>
 
