@@ -14,6 +14,6 @@
 </html>
 
 <?php 
-
+    $credit_card = $_POST['credit_card'];
 
 ?>
