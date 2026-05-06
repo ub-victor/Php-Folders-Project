@@ -31,7 +31,7 @@
 
                 $_SESSION["username"] = $_POST["username"] ;
                 $_SESSION["password"] = $_POST["password"];
-
+                    // header("Location: home.php");
                     header("Location: home.php");
         }else{
             echo "Missing username/ password <br>";
