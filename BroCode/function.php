@@ -12,13 +12,13 @@
 
 <?php 
     echo "<br>";
-    function is_even($number){
-        if($number % 2 ==0){
-            return "The number is even";
-        }else{
-            return "The number isn't even";
-        }
-    }
+    // function is_even($number){
+    //     if($number % 2 ==0){
+    //         return "The number is even";
+    //     }else{
+    //         return "The number isn't even";
+    //     }
+    // }
 
     echo is_even(10);
 
