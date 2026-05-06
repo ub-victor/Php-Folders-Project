@@ -9,7 +9,7 @@
     <form action="index.php" method="post">
         Username <br>
         <input type="text" name="username"> <br>
-        <input type="submit" >
+        <input type="submit" name="submit">
 
     </form>
 </body>
