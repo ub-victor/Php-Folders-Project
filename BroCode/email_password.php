@@ -23,7 +23,35 @@
 </html>
 
 
-<?php 
+<?php
 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    $email = $_POST["email"];
+    $password = $_POST["password"];
+
+    // 1. EMAIL VALIDATION
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        echo "Invalid email format<br>";
+    } else {
+        echo "Email is valid<br>";
+    }
+
+    // 2. PASSWORD VALIDATION
+    // Simple rules:
+    // - at least 6 characters
+    // - must contain a number
+
+    if (strlen($password) < 6) {
+        echo "Password must be at least 6 characters<br>";
+    }
+    elseif (!preg_match("/[0-9]/", $password)) {
+        echo "Password must contain at least one number<br>";
+    }
+    else {
+        echo "Password is strong enough<br>";
+    }
+
+}
 
 ?>
