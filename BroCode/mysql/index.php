@@ -1,4 +1,4 @@
 <?php
-    include("datsbase.php")
+    include("datsbase.php");
 
 ?>
