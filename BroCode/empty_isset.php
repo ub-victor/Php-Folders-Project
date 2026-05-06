@@ -8,6 +8,7 @@
 <body>
     <form action="empty_isset.php" method="post">
         <label>Username:</label>
+        <input type="text" name="username"> <br>
     </form>
 </body>
 </html>
