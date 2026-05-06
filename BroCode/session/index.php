@@ -11,7 +11,10 @@
     <title>Document</title>
 </head>
 <body> 
-    <form action="index.php" method="post"></form>
+    <form action="index.php" method="post">
+        Username: <br>
+        <input type="text" name="usename">
+    </form>
 </body>
 </html>
 
