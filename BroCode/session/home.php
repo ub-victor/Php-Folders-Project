@@ -11,6 +11,6 @@
 </head>
 <body>
     This is the Home Page <br>
-    <a href="index.php">This goes to the login Page</a> <br>
+    
 </body>
 </html>
