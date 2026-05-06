@@ -1,1 +1,1 @@
-$
+$password = "pizza123";
