@@ -27,7 +27,7 @@
         if(isset($_POST["foods"])){
 
             // foreach($_POST["foods"] as $food){
-            echo $food[];
+            echo $_POST['foods'];
 
             // }
 
