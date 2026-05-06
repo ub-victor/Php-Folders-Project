@@ -10,7 +10,7 @@
     if($conn){
         echo "The Db is running";
     }else{
-        echo "The Db is running";
+        echo "The Db isn't running";
     }
 
 ?>
