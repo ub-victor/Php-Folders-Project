@@ -60,6 +60,8 @@ That’s why we don’t create $_POST yourself
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    
+    if(empty($username)){
+        echo "";
+    }
     }
 ?>
