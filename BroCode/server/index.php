@@ -7,7 +7,9 @@
 </head>
 <body>
     <form action="index.php" method="post">
-        
+        Username <br>
+        <input type="text" name="username"> <br>
+        <input type="submit" >
 
     </form>
 </body>
