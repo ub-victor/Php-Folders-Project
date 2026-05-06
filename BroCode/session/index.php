@@ -17,7 +17,7 @@
         Username: <br>
         <input type="password" name="password"> <br>
 
-        <input type="submit" name="login">
+        <input type="submit" name="login"> <br> <br>
     </form>
 </body>
 </html>
@@ -32,8 +32,8 @@
                 $_SESSION["username"] = $_POST["username"] ;
                 $_SESSION["password"] = $_POST["password"];
 
-                    $_SESSION["username"] . "<br>";
-                    $_SESSION["password"] . "<br>";
+                    echo $_SESSION["username"] . "<br>";
+                    echo $_SESSION["password"] . "<br>";
             }
     }
 ?>
