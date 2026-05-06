@@ -25,7 +25,12 @@
     if(isset($_POST["submit"])){
 
         if(isset($_POST["foods"])){
-            
+
+            // foreach($_POST["foods"] as $food){
+
+
+            // }
+
         }else{
             echo "You don't like any of these foods";
         }
