@@ -18,5 +18,6 @@
 
 <?php 
     $_SESSION["username"] . "<br>";
+    $_SESSION["password"] = "Ushindi@123!"
 
 ?>
