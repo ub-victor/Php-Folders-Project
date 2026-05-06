@@ -8,7 +8,7 @@
 <body>
     <form action="checkbox.php" method="post">
         <input type="checkbox" name="pizza" value="Pizza">Pizza <br>
-        <input type="checkbox" name="pizza" value="Pizza">Pizza <br>
+        <input type="checkbox" name="hamburger" value="Hamburger">Hamburger<br>
         <input type="checkbox" name="hotdog" value="Hotdog">Hotdog <br>
         <input type="checkbox" name="tako" value="Taco">Taco <br>
     </form>
