@@ -24,7 +24,7 @@
 
 <?php 
     $_SESSION["username"] = $_POST["username"] ;
-    $_SESSION["username"] = $_POST["password"];
+    $_SESSION["password"] = $_POST["password"];
 
 
 
