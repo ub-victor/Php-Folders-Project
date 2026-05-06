@@ -35,8 +35,4 @@
                 echo $_POST["password"];
             }
     }
-    
-
-
-
 ?>
