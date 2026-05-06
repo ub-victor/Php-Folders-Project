@@ -14,9 +14,3 @@
     <a href="index.php">This goes to the login Page</a> <br>
 </body>
 </html>
-
-<?php
-    echo $_SESSION["username"] . "<br>";
-    echo $_SESSION["password"] . "<br>";
-
-?>
