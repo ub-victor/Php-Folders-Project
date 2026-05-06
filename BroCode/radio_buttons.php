@@ -21,7 +21,7 @@
         
         if(isset($_POST["credit_card"])){
             $credit_card = $_POST['credit_card'];
-        }
+        }elseif($credit_card == "Visa")
     }
     
 ?>
