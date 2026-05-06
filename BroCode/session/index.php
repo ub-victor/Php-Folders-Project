@@ -31,8 +31,8 @@
 
         if(!empty($_POST["username"]) &&
             !empty($_POST["password"])){
-                $_SESSION["username"]
-                $_SESSION["password"]
+                $_SESSION["username"] . "<br>";
+                $_SESSION["password"] . "<br>";
             }
     }
 ?>
