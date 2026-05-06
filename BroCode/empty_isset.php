@@ -24,7 +24,9 @@
 
 <!-- 
     👉 The browser collects form inputs and sends them to the server
-👉  PHP automatically puts them into the $_POST array
+    👉  PHP automatically puts them into the $_POST array
+
+    The name attribute is the key
 
 -->
 
