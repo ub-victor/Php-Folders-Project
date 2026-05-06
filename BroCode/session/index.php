@@ -33,6 +33,7 @@
                 $_SESSION["password"] = $_POST["password"];
                     // 🔁 “Redirect the user to home.php”
                     header("Location: home.php");
+                    exit()
         }else{
             echo "Missing username/ password <br>";
         }
