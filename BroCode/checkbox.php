@@ -8,7 +8,7 @@
 <body>
     <form action="checkbox.php" method="post">
         <!-- making all names same array it make PHP to receive 
-         $_POST['foods'] = ["Pizza", "Hotdog"];   -->
+        $_POST['foods'] = ["Pizza", "Hotdog"];-->
         <input type="checkbox" name="foods[]" value="Pizza">Pizza <br>
         <input type="checkbox" name="foods[]" value="Hamburger">Hamburger<br>
         <input type="checkbox" name="foods[]" value="Hotdog">Hotdog <br>
