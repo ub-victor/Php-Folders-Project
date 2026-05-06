@@ -6,6 +6,8 @@
     }
 
     birthday("Victor", 21);
+    echo "<br>";
+    birthday("Winner", 26;
 
 
 
