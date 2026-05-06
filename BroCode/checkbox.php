@@ -22,5 +22,10 @@
 <?php 
 // “Does this variable exist AND is it not null?”
 // $_POST['submit'] = "", which is not null but a empty string
-    if(isset($_POST["submit"]))
+    if(isset($_POST["submit"])){
+
+        if(isset($_POST["foods"])){
+            
+        }
+    }
 ?>
