@@ -7,9 +7,9 @@
 </head>
 <body>
     <form action="empty_isset.php" method="post">
-        <label>Username:</label>
+        <label>Username: </label>
         <input type="text" name="username"> <br>
-        <label>Username:</label>
+        <label>Password: </label>
         <input type="password" name="username"> <br>
     </form>
 </body>
