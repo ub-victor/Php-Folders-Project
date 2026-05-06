@@ -4,6 +4,6 @@
     $db_pass = "Ushindi123!";
     $conn = "";
 
-    $conn = mysqli_connect($db_sever)
+    $conn = mysqli_connect($db_server)
 
 ?>
