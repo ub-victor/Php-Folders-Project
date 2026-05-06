@@ -8,9 +8,9 @@
     $conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name);
 
     if($conn){
-        echo "The Db is running";
+        echo "The Db is running...";
     }else{
-        echo "The Db isn't running";
+        echo "The Db isn't running...";
     }
 
 ?>
