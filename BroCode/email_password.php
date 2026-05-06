@@ -7,7 +7,8 @@
 </head>
 <body>
     <form action="email_password.php" method="post">
-        
+        username: <br>
+        <input type="text" name="username"><br>
 
     </form>
 </body>
