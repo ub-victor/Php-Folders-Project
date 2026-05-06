@@ -1,4 +1,4 @@
-$password = "pizza123";
+$password = "Ushindi@23!";
 
 $hash = password_hash($password, PASSWORD_DEFAULT);
 
