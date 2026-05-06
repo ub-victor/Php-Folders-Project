@@ -29,7 +29,7 @@
             foreach($_POST["foods"] as $food){
                 switch($food){
                     case "Pizza":
-                        echo "You like Pizza <br>";
+                        echo "You like Pizza🍕 <br>";
                 }         
 
             }
