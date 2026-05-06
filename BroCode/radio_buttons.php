@@ -5,11 +5,13 @@
     <title>radio button</title>
 </head>
 <body>
+    <form method="post" action="">
     <input type="radio" name="credit_card" value="Visa">Visa <br>
     <input type="radio" name="credit_card" value="Mastercard">Mastercard<br>
     <input type="radio" name="credit_card" value="American Express">American Express<br>
     <br>
     <input type="submit" name="confirm" value="confirm">
+</form>
 </body>
 </html>
 
