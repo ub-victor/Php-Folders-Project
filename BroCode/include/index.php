@@ -14,3 +14,8 @@
     Stuff about your home page can go here <br>
 </body>
 </html>
+
+<?php
+    include("header.html")
+
+?>
