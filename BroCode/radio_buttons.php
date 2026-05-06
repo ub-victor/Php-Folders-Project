@@ -5,6 +5,8 @@
     <title>radio button</title>
 </head>
 <body>
-    
+    <input type="radio" name="credit_card" value="Visa">Visa <br>
+    <input type="radio" name="credit_card" value="Visa">Visa <br>
+    <input type="radio" name="credit_card" value="Visa">Visa <br>
 </body>
 </html>
