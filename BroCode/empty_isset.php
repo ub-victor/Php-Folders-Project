@@ -23,6 +23,8 @@
 </html>
 
 <?php 
-    foreach($_POST as $key => $value)
+    foreach($_POST as $key => $value){
+        
+    }
 
 ?>
