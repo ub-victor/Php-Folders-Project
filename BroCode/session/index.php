@@ -13,7 +13,7 @@
 <body> 
     <form action="index.php" method="post">
         Username: <br>
-        <input type="text" name="usename"> <br>
+        <input type="text" name="username"> <br>
         Username: <br>
         <input type="password" name="password"> <br>
 
