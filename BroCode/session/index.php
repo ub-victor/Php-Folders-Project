@@ -32,11 +32,10 @@
                 $_SESSION["username"] = $_POST["username"] ;
                 $_SESSION["password"] = $_POST["password"];
 
-                    echo $_SESSION["username"] . "<br>";
-                    echo $_SESSION["password"] . "<br>";
+                    
         }else{
 
-            echo "Missing username/ password <br>";
+            echo "Missing username/ password <br>"; 
         }
     }
 ?>
