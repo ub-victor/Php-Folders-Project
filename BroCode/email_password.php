@@ -7,7 +7,7 @@
 
 <h2>Register</h2>
 
-<form action="string_method.php" method="POST">
+<form action="email_password.php" method="POST">
 
     Email:
     <input type="text" name="email"><br><br>
