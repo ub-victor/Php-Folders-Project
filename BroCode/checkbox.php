@@ -27,7 +27,10 @@
         if(isset($_POST["foods"])){
 
             foreach($_POST["foods"] as $food){
-                         
+                switch($food){
+                    case "Pizza":
+                        echo "You like Pizza <br>"
+                }         
 
             }
 
