@@ -5,6 +5,10 @@
     $db_name = "Brocode";
     $conn = "";
 
-    $conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name)
+    $conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name);
+
+    if($conn){
+        echo "The Db is running"
+    }
 
 ?>
