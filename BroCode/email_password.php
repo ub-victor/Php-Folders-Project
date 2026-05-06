@@ -9,6 +9,7 @@
     <form action="email_password.php" method="post">
         username: <br>
         <input type="text" name="username"><br>
+        <input type="submit" name="login" value="login">
 
     </form>
 </body>
