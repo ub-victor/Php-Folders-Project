@@ -1,6 +1,7 @@
 <?php 
     include ( "database.php");
 
+    // Creates an SQL query.
     $sql = "SELECT * FROM users WHERE user = 'Ushindis'";
     $result = mysqli_query($conn, $sql);
 
