@@ -16,20 +16,26 @@
 </body>
 </html>
 
-<?php 
-    if(isset($_POST["confirm"])){
-        
-        if(isset($_POST["credit_card"])){
-            $credit_card = $_POST['credit_card'];
-        }elseif($credit_card == "Visa"){
+<?php
+if(isset($_POST["confirm"])){
+
+    if(isset($_POST["credit_card"])){
+
+        $credit_card = $_POST['credit_card'];
+
+        if($credit_card == "Visa"){
             echo "You selected Visa";
-        }elseif($credit_card == "Mastercard"){
-            echo "You selected Mastercard";
-        }elseif($credit_card == "American Express"){
-            echo "You selected American Express <br>";
-        }else{
-            echo "Please select one option";
         }
+        elseif($credit_card == "Mastercard"){
+            echo "You selected Mastercard";
+        }
+        elseif($credit_card == "American Express"){
+            echo "You selected American Express <br>";
+        }
+
+    } else {
+        echo "Please select one option";
     }
-    
+
+}
 ?>
