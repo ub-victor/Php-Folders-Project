@@ -29,6 +29,7 @@
     The name attribute is the key
     so when click on "Login"
     The browser sends data like this 
+    
     username=Victoire
     password=1234
     login=Login
