@@ -14,6 +14,8 @@
     <form action="index.php" method="post">
         Username: <br>
         <input type="text" name="usename"> <br>
+        Username: <br>
+        <input type="text" name="usename"> <br>
     </form>
 </body>
 </html>
