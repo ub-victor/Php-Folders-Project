@@ -11,7 +11,7 @@
 </head>
 <body>
     This is the Home Page <br>
-    <a href="home.php">This goes to the Index Page</a> <br>
+    <a href="index.php">This goes to the Index Page</a> <br>
 </body>
 </html>
 
