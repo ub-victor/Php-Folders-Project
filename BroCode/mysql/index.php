@@ -7,7 +7,7 @@ include("database.php");
     $hash = password_hash($password, PASSWORD_DEFAULT);
 
 $sql = "INSERT INTO users (user, password)
-        VALUES ('Ushindi', 'Ushindi@123!')";
+        VALUES ('$username', '$password')";
 
 try{
     //Sends the SQL command to MySQL. which database connection and SQL command to execute
