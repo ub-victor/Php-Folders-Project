@@ -34,7 +34,6 @@
 
                     header("Location: home.php");
         }else{
-
             echo "Missing username/ password <br>";
         }
     }
