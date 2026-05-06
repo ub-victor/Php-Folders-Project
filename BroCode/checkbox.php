@@ -21,15 +21,15 @@
 
 <!-- 
     $all_foods = ["Pizza", "Hamburger", "Hotdog", "Taco"];
-$selected = $_POST["foods"] ?? [];
+        $selected = $_POST["foods"] ?? [];
 
-foreach($all_foods as $food){
-    if(in_array($food, $selected)){
-        echo "You like $food <br>";
-    } else {
-        echo "You don't like $food <br>";
-    }
-}
+        foreach($all_foods as $food){
+            if(in_array($food, $selected)){
+                echo "You like $food <br>";
+            } else {
+                echo "You don't like $food <br>";
+            }
+        }
 
 
 -->
