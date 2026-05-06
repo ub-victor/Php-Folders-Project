@@ -123,7 +123,9 @@
         $person = null;
 
         if(isset($person)){
-            echo "This variable his variable is NOT set";
+            echo "This variable his variable is NOT set <br>";
+        }else{
+            echo "";
         }
     
     ?>
