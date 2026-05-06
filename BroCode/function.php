@@ -13,8 +13,8 @@
 <?php 
     function is_even($number){
         if($number % 2){
-            return "The number is even"
-        }
+            return "The number is even";
+        }else
     }
 
     echo is_even(10);
