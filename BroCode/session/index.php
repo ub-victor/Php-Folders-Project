@@ -13,7 +13,7 @@
 <body> 
     <form action="index.php" method="post">
         Username: <br>
-        <input type="text" name="usename">
+        <input type="text" name="usename"> <br>
     </form>
 </body>
 </html>
