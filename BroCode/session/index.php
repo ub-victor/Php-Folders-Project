@@ -17,18 +17,18 @@
         Username: <br>
         <input type="password" name="password"> <br>
 
-        <input type="submit" name="login" name="login">
+        <input type="submit" name="login">
     </form>
 </body>
 </html>
 
-<?php 
+<?php
 
     if(isset($_POST["login"])){
 
         if(!empty($_POST["username"]) &&
             !empty($_POST["password"])){
-                
+
                 $_SESSION["username"] = $_POST["username"] ;
                 $_SESSION["password"] = $_POST["password"];
 
