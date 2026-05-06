@@ -17,6 +17,6 @@
 </html>
 
 <?php 
-    $_SESSION["username"] . "<br>" 
+    $_SESSION["username"] . "<br>";
 
 ?>
