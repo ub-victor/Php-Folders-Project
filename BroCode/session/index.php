@@ -35,6 +35,7 @@
                     echo $_SESSION["username"] . "<br>";
                     echo $_SESSION["password"] . "<br>";
         }else{
+            
             echo "Missing username/ password";
         }
     }
