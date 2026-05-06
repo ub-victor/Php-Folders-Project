@@ -11,7 +11,7 @@
 </head>
 <body>
     This is the Home page <br>
-    Stuff about your home page can go here <br>
+    Stuff about your Home page can go here <br>
 </body>
 </html>
 
