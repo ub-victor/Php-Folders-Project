@@ -7,7 +7,7 @@
 </head>
 <body>
     <form action="empty_isset.php" method="post">
-        
+        <label>Username:</label>
     </form>
 </body>
 </html>
