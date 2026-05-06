@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="index.php" method="post"></form>
 </body>
 </html>
 
