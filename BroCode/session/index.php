@@ -30,6 +30,7 @@
             !empty($_POST["password"])){
                 $_SESSION["username"] = $_POST["username"] ;
                 $_SESSION["password"] = $_POST["password"];
+                
                     $_SESSION["username"] . "<br>";
                     $_SESSION["password"] . "<br>";
             }
