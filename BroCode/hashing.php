@@ -7,7 +7,7 @@
     if(password_verify("victoire", $hash)){
         echo "You are logged in!";
     }else{
-        echo "Incorrect password";
+        echo "Incorrect password!";
     }
 
 ?>
