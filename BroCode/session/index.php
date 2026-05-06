@@ -30,10 +30,10 @@
         $_SESSION["password"] = $_POST["password"];
 
         if(!empty($_POST["username"])) &&
-            !empty($_POST["password"])
+            !empty($_POST["password"]);
 
         echo $_POST["username"];
-        echo $_POST["password"]
+        echo $_POST["password"];
 
     }
     
