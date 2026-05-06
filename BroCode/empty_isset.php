@@ -38,7 +38,11 @@
 
     Then is the _POST array looks like this
 
-    
+    $_POST = [
+    "username" => "Victoire",
+    "password" => "1234",
+    "login" => "Login"
+];
 
 
 -->
