@@ -1,11 +1,12 @@
 <?php
-    include("datsbase.php");
 
-    $sql = "Insert Into users (user, password)
-            Value ("Ushindi", "Ushindi@123!")";
+include("database.php");
 
-    mysqli_query($conn, $sql)
+$sql = "INSERT INTO users (user, password)
+        VALUES ('Ushindi', 'Ushindi@123!')";
 
-    mysqli_close($conn)
+mysqli_query($conn, $sql);
+
+mysqli_close($conn);
 
 ?>
