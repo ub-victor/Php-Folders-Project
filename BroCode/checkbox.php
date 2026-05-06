@@ -11,6 +11,8 @@
         <input type="checkbox" name="hamburger" value="Hamburger">Hamburger<br>
         <input type="checkbox" name="hotdog" value="Hotdog">Hotdog <br>
         <input type="checkbox" name="tako" value="Taco">Taco <br>
+        <br>
+        <input type="submit" name="submit">
     </form>
 </body>
 </html>
