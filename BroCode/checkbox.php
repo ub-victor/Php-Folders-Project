@@ -30,6 +30,7 @@
                 switch($food){
                     case "Pizza":
                         echo "You like Pizza🍕 <br>";
+                        break
                 }         
 
             }
