@@ -12,7 +12,7 @@
 
 <?php 
     function is_even($number){
-        if($number % 2 == 0){
+        if($number % 2){
             return "The number is even";
         }else{
             return "The number isn't even";
