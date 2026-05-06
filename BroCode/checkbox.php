@@ -18,6 +18,7 @@
 </html>
 
 <?php 
+// “Does this variable exist AND is it not null?”
     if(isset($_POST["submit"])){
         if(isset($_POST["pizza"])){
             echo "You like pizza";
