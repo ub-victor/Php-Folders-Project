@@ -22,9 +22,14 @@
 </body>
 </html>
 
+<!-- 
+    👉 The browser collects form inputs and sends them to the server
+👉  PHP automatically puts them into the $_POST array
+
+-->
+
 <?php
     foreach($_POST as $key => $value){
         echo "{$key} = {$value} <br>";
     }
-
 ?>
