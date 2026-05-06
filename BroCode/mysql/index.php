@@ -25,7 +25,9 @@ mysqli_close($conn);
 
 <!-- to retrieve form the db -->
 <?php 
-    $sql = "SELECT * FROM users WHERE user = 'Ushindi'
+    $sql = "SELECT * FROM users WHERE user = 'Ushindi'";
+    $result = mysqli_query($conn, $sql);
+
 
 
 ?>
