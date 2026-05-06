@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 <body> 
-    <form action="index.php"></form>
+    <form action="index.php" method="post"></form>
 </body>
 </html>
 
