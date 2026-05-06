@@ -1,3 +1,8 @@
+<?php
+    include("header.html")
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,3 +15,8 @@
     Stuff about your About page can go here <br>
 </body>
 </html>
+
+<?php
+    include("footer.html")
+
+?>
