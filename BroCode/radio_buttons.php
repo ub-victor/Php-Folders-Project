@@ -15,7 +15,10 @@
 
 <?php 
     if(isset($_POST["confirm"])){
+        
+    if(isset($_POST["credit_card"])){
         $credit_card = $_POST['credit_card'];
+    }
 
 
     }
