@@ -21,13 +21,3 @@
     </form>
 </body>
 </html>
-
-<?php 
-    echo "<br>";
-    $_SESSION["username"] = "Ushindi";
-    $_SESSION["password"] = "Ushindi@123!";
-
-    // echo $_SESSION["username"] . "<br>";
-    // echo $_SESSION["password"] . "<br>";
-
-?>
