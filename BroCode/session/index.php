@@ -23,7 +23,7 @@
 </html>
 
 <?php 
-        
+    $_SESSION["username"]    
 
 
 ?>
