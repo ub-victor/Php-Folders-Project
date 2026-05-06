@@ -14,5 +14,4 @@ try{
 if($conn){
     echo "Database connected successfully!";
 }
-
 ?>
