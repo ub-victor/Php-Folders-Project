@@ -29,7 +29,7 @@
         $_SESSION["username"] = $_POST["username"] ;
         $_SESSION["password"] = $_POST["password"];
 
-        if(!empty($_POST["username"])) &&
+        if(!empty($_POST["username"]) &&
             !empty($_POST["password"])){
                 echo $_POST["username"];
                 echo $_POST["password"];
