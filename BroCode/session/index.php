@@ -17,7 +17,7 @@
 </html>
 
 <?php 
-    $_SESSION["username"] . "<br>";
+    $_SESSION["username"] = "BroCode";
     $_SESSION["password"] = "Ushindi@123!"
 
 ?>
