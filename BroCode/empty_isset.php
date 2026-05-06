@@ -36,8 +36,8 @@
 
     And that is called form data (key=value pairs)
 
-    then is the _POST array looks like this
-    
+    Then is the _POST array looks like this
+
 
 -->
 
