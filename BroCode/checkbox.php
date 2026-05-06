@@ -27,7 +27,7 @@
         if(isset($_POST["foods"])){
 
         }else{
-            echo "You don't like any of these foods"
+            echo "You don't like any of these foods";
         }
     }
 ?>
