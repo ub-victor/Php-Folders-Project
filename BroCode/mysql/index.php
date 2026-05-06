@@ -5,7 +5,7 @@ include("database.php");
 $sql = "INSERT INTO users (user, password)
         VALUES ('Ushindi', 'Ushindi@123!')";
 
-//Sends the SQL command to MySQL. which
+//Sends the SQL command to MySQL. which database connection
 mysqli_query($conn, $sql);
 
 mysqli_close($conn);
