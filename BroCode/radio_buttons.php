@@ -23,6 +23,12 @@
             $credit_card = $_POST['credit_card'];
         }elseif($credit_card == "Visa"){
             echo "You selected Visa";
+        }elseif($credit_card == "Visa"){
+            echo "You selected Visa";
+        }elseif($credit_card == "Visa"){
+            echo "You selected Visa";
+        }else{
+            echo "Please select one option";
         }
     }
     
