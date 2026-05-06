@@ -23,5 +23,5 @@ mysqli_close($conn);
 
 ?>
 
-
+<!-- to retrieve form the db -->
 <?php  ?>
