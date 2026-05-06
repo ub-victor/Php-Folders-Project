@@ -55,5 +55,11 @@ That’s why we don’t create $_POST yourself
     //     echo "{$key} = {$value} <br>";
     // }
 
+    if(isset($_POST['login'])){
+
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
     
+    }
 ?>
