@@ -12,5 +12,6 @@
 </head>
 <body>
     This is the login Page <br>
+    <a href="home.php"></a>
 </body>
 </html>
