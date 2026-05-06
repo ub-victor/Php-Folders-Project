@@ -1,7 +1,7 @@
 <?php 
     include ( "database.php");
 
-    $sql = "SELECT * FROM users WHERE user = 'Ushindi'";
+    $sql = "SELECT * FROM users WHERE user = 'Ushindis'";
     $result = mysqli_query($conn, $sql);
 
     if(mysqli_num_rows($result)> 0){
