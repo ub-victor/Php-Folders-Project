@@ -6,8 +6,8 @@
 </head>
 <body>
     <input type="radio" name="credit_card" value="Visa">Visa <br>
-    <input type="radio" name="credit_card" value="Visa">Mastercard<br>
-    <input type="radio" name="credit_card" value="Visa">American Express<br>
+    <input type="radio" name="credit_card" value="Mastercard">Mastercard<br>
+    <input type="radio" name="credit_card" value="American Express">American Express<br>
     <br>
     <input type="submit" name="confirm" value="confirm">
 </body>
