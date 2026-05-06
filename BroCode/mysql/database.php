@@ -1,16 +1,16 @@
 <?php
-    $db_server = "localhost";
-    $db_user = "root";
-    $db_pass = "Ushindi123!";
-    $db_name = "Brocode";
-    $conn = "";
 
-    $conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name);
+$db_server = "localhost";
+$db_user = "root";
+$db_pass = "Ushindi123!";
+$db_name = "Brocode";
+
+$conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name);
 
     if($conn){
-        echo "The Db is running...";
+        echo "Database connected successfully!";
     }else{
-        echo "The Db isn't running...";
+        die("Connection failed: " . mysqli_connect_error());
     }
 
 ?>
