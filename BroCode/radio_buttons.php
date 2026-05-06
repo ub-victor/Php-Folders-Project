@@ -6,6 +6,7 @@
 </head>
 <body>
     <form method="post" action="radio_buttons.php">
+        <!-- The value is what gets sent to PHP IF this option is selected -->
     <input type="radio" name="credit_card" value="Visa">Visa <br>
     <input type="radio" name="credit_card" value="Mastercard">Mastercard<br>
     <input type="radio" name="credit_card" value="American Express">American Express<br>
