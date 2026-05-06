@@ -24,7 +24,7 @@
     function is_even($number){
         return $number % 2 == 0
             ? "The number {$number} is even"
-           : "The number {$number}  isn't even";
+            : "The number {$number}  isn't even";
     }
 
     echo is_even(11);
