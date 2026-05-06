@@ -11,6 +11,8 @@
 </head>
 <body>
     This is the Home Page <br>
-    
+    <form action="home.php" method="post">
+        <input type="submit" name="logout">
+    </form>
 </body>
 </html>
