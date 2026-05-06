@@ -23,7 +23,7 @@
 </html>
 
 <?php 
-    $_SESSION["username"]    
+    $_SESSION["username"] = $_POST["username"]    
 
 
 ?>
