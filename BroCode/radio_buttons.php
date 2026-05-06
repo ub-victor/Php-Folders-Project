@@ -8,6 +8,6 @@
     <input type="radio" name="credit_card" value="Visa">Visa <br>
     <input type="radio" name="credit_card" value="Visa">Mastercard<br>
     <input type="radio" name="credit_card" value="Visa">American Express<br>
-    <input type="submit" name="" id="">
+    <input type="submit" name="confirm" value="confirm">
 </body>
 </html>
