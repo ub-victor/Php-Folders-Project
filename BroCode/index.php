@@ -129,7 +129,7 @@
         }
 
         echo "<br>";
-        $boy = "boy";
+        $boy = 3;
 
         if(empty($boy)){
             echo "This variable is empty<br>";
