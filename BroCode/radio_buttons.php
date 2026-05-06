@@ -18,6 +18,7 @@
         
     if(isset($_POST["credit_card"])){
         $credit_card = $_POST['credit_card'];
+        echo $credit_card;
     }
 
 
