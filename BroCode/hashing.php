@@ -1,5 +1,8 @@
-$password = "Ushindi@23!";
+<?php
+    $password = "Ushindi@23!";
 
-$hash = password_hash($password, PASSWORD_DEFAULT);
+    $hash = password_hash($password, PASSWORD_DEFAULT);
 
-echo $hash;
+    echo $hash;
+
+?>
