@@ -21,6 +21,7 @@
     // }
 
     // using tenary
+    
 
     echo is_even(10);
 
