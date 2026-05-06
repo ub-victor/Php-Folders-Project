@@ -4,6 +4,7 @@ include("database.php");
 
     $username = "";
     $password = "";
+    $hash = password_hash($password, PASSWORD_DEFAULT);
 
 $sql = "INSERT INTO users (user, password)
         VALUES ('Ushindi', 'Ushindi@123!')";
