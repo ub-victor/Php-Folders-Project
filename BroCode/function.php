@@ -15,4 +15,6 @@
         return $number % 2;
     }
 
+    echo is_even(10);
+
 ?>

@@ -19,12 +19,29 @@
 </body>
 </html>
 
+<!-- 
+    $all_foods = ["Pizza", "Hamburger", "Hotdog", "Taco"];
+$selected = $_POST["foods"] ?? [];
+
+foreach($all_foods as $food){
+    if(in_array($food, $selected)){
+        echo "You like $food <br>";
+    } else {
+        echo "You don't like $food <br>";
+    }
+}
+
+
+-->
+
 <?php 
 // “Does this variable exist AND is it not null?”
 // $_POST['submit'] = "", which is not null but a empty string
     if(isset($_POST["submit"])){
 
         if(isset($_POST["foods"])){
+
+            
 
             foreach($_POST["foods"] as $food){
                 switch($food){
