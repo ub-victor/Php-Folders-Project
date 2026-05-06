@@ -14,6 +14,7 @@
 </html>
 
 <?php 
+    if(isset())
     $credit_card = $_POST['credit_card'];
 
 ?>
