@@ -9,6 +9,8 @@
     <form action="empty_isset.php" method="post">
         <label>Username:</label>
         <input type="text" name="username"> <br>
+        <label>Username:</label>
+        <input type="password" name="username"> <br>
     </form>
 </body>
 </html>
