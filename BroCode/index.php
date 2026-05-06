@@ -127,6 +127,14 @@
         }else{
             echo "This variable is Not set";
         }
-    
+
+        echo "<br>";
+        $boy = null;
+
+        if(empty($boy)){
+            echo "This variable is empty<br>";
+        }else{
+            echo "This variable is Not empty";
+        }
     ?>
 
