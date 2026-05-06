@@ -6,11 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="empty_isset.php" method="post">
+    <pre>
+        <form action="empty_isset.php" method="post">
         <label>Username: </label>
         <input type="text" name="username"> <br>
         <label>Password: </label>
         <input type="password" name="username"> <br>
+        <input type="submit" name="login" value="Login">
     </form>
+
+    </pre>
+    
 </body>
 </html>
