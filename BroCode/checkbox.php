@@ -22,7 +22,7 @@
 // $_POST['submit'] = "", which is not null but a empty string
     if(isset($_POST["submit"])){
         if(isset($_POST["pizza"])){
-            echo "You like pizza";
+            echo "You like";
         }
     }
 ?>
