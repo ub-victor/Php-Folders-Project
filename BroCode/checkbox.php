@@ -10,7 +10,7 @@
         <input type="checkbox" name="pizza" value="Pizza">Pizza <br>
         <input type="checkbox" name="pizza" value="Pizza">Pizza <br>
         <input type="checkbox" name="pizza" value="Pizza">Pizza <br>
-        <input type="checkbox" name="pizza" value="Taco">Taco <br>
+        <input type="checkbox" name="tako" value="Taco">Taco <br>
     </form>
 </body>
 </html>
