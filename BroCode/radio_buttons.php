@@ -26,7 +26,7 @@
         }elseif($credit_card == "Visa"){
             echo "You selected Visa";
         }elseif($credit_card == "Visa"){
-            echo "You selected Visa";
+            echo "You selected American Express <br>";
         }else{
             echo "Please select one option";
         }
