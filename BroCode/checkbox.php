@@ -34,8 +34,8 @@
                     case "Hamburger":
                         echo "You like Hamburger <br>";
                         break;
-                    case "Pizza":
-                        echo "You like Pizza🍕 <br>";
+                    case "Hotdog":
+                        echo "You like Hotdog <br>";
                         break;
                     case "Pizza":
                         echo "You like Pizza🍕 <br>";
