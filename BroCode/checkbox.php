@@ -12,7 +12,7 @@
         <input type="checkbox" name="hotdog" value="Hotdog">Hotdog <br>
         <input type="checkbox" name="tako" value="Taco">Taco <br>
         <br>
-        <input type="submit" name="submit">
+        <input type="submit" name="submit"><br>
     </form>
 </body>
 </html>
