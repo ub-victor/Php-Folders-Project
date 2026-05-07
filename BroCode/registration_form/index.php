@@ -12,6 +12,10 @@
 <body>
     <form action="<?php htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="post">
         <h2>Welcome to Fakebook!</h2>
+        username: <br>
+        <input type="text" name="username"><br>
+        password: <br>
+        <input type="text" name="password"><br>
     </form>
 </body>
 </html>
