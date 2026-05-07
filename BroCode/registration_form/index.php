@@ -10,7 +10,9 @@
     <title>Registration</title>
 </head>
 <body>
-    <form action="<?php htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="post"></form>
+    <form action="<?php htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="post">
+        <h2>Welcome to Fakebook!</h2>
+    </form>
 </body>
 </html>
 <?php 
