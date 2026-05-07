@@ -31,7 +31,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     }elseif(empty($password)){
         echo "please enter a password";
     }else{
-        $hash = password_hash($password, )
+        $hash = password_hash($password,PASSWORD_DEFAULT )
     }
 }
 
