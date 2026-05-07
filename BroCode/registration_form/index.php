@@ -41,7 +41,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             echo "You are now registered";
 
        }catch(mysqli_sql_exception){
-
+            echo "That user name is taken";
        }
     }
 }
