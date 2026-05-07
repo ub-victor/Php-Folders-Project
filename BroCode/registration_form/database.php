@@ -11,8 +11,8 @@ try{
 }catch(mysqli_sql_exception){
     echo "Could not connect!";
 }
-if($conn){
-    echo "Database connected successfully! <br>";
-    echo "<br>";
-}
+// if($conn){
+//     echo "Database connected successfully! <br>";
+//     echo "<br>";
+// }
 ?>
