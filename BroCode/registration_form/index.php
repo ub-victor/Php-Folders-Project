@@ -32,6 +32,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         echo "please enter a password";
     }else{
         $hash = password_hash($password,PASSWORD_DEFAULT);
+        $sql = "INSERT INTO users (user, password)
+                VALUES('$username', '$hash')"
     }
 }
 
