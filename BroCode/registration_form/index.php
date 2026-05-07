@@ -10,7 +10,7 @@
     <title>Registration</title>
 </head>
 <body>
-    <form action="<?php htmlspecialchars($_SERVER[""]) ?>" method="post"></form>
+    <form action="<?php htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="post"></form>
 </body>
 </html>
 <?php 
