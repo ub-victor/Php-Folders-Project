@@ -28,6 +28,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     if(empty($username)){
         echo "Please enter a username";
+    }elseif(empty($password)){
+        
     }
 }
 
