@@ -23,8 +23,8 @@
 <?php 
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
-    $username = filter_input(INPUT_POST, "username");
-     $password = filter_input(INPUT_POST, "password");
+    $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+     $password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 }
 
 mysqli_close($conn)
