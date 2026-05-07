@@ -35,6 +35,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $sql = "INSERT INTO users (user, password)
                 VALUES('$username', '$hash')";
         mysqli_query($conn, $sql);
+        echo "<br>";
+        echo "";
     }
 }
 
