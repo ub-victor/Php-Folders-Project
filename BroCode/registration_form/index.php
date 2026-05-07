@@ -34,7 +34,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $hash = password_hash($password,PASSWORD_DEFAULT);
         $sql = "INSERT INTO users (user, password)
                 VALUES('$username', '$hash')";
-        mysqli_query($conn, $sql)
+        mysqli_query($conn, $sql);
     }
 }
 
