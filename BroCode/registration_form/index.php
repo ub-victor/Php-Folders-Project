@@ -30,6 +30,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         echo "Please enter a username";
     }elseif(empty($password)){
         echo "please enter a password";
+    }else{
+        $hash = password_hash($password, )
     }
 }
 
