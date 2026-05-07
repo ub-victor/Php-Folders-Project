@@ -36,7 +36,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 VALUES('$username', '$hash')";
         mysqli_query($conn, $sql);
         echo "<br>";
-        echo "";
+        echo "You are now registered";
     }
 }
 
