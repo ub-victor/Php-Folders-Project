@@ -1,7 +1,7 @@
 <?php
 
 class Product{
-    private $name;
+    public $name = "soap";
 
 }
 
