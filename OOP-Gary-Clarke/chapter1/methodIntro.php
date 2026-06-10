@@ -11,6 +11,9 @@ class Product{
 
 $priceAsCurrency = new Product();
 
+//var_dump($priceAsCurrency);
+$priceAsCurrency->price= 1000
+print "The price is: " .  . "\n";
 
 
 
