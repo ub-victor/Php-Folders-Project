@@ -2,7 +2,7 @@
 
 class Product{
     public $name = "soap";
-    private $price = 200;
+    public $price = 200;
 
 }
 
@@ -17,6 +17,7 @@ $soapProduct = new Product();
 // print → outputs the value to the screen
 //$soapProduct->name = "Laptop";
 print $soapProduct->name . "\n";
+print $soapProduct->price . "\n";
 
 
 
