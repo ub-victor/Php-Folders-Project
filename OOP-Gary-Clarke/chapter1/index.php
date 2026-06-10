@@ -13,7 +13,6 @@ $anotherProduct = new Product();
 var_dump($product); // it will output the object
 $soapProduct = new Product();
 print $soapProduct->name;
-print
 
 
 
