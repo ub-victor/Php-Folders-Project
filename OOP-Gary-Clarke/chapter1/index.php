@@ -16,8 +16,8 @@ $soapProduct = new Product();
 // → object operator (used to access properties or methods)
 // print → outputs the value to the screen
 //$soapProduct->name = "Laptop";
-print $soapProduct->name . "\n";
-print $soapProduct->price . "\n";
+print "The name of our product is: " . $product->name . "\n";
+print "The price of {$product->name} is {$product->price}\n";
 
 
 
