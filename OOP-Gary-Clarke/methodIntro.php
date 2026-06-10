@@ -9,4 +9,9 @@ class Product{
     }
 }
 
+$priceAsCurrency = new Product();
+
+
+
+
 ?>
