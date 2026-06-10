@@ -12,7 +12,7 @@ $anotherProduct = new Product();
 //It prints detailed information about a variable, including:its type, its structure, its values
 var_dump($product); // it will output the object
 $soapProduct = new Product();
-//-> → object operator (used to access properties or methods)
+// → object operator (used to access properties or methods)
 print $soapProduct->name;
 
 
