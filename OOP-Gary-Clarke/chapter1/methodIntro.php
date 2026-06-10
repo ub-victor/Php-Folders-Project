@@ -13,8 +13,5 @@ $priceAsCurrency = new Product();
 
 //var_dump($priceAsCurrency);
 $priceAsCurrency->price= 1000;
-print;
-
-
-
+print "The priceAsCurrency is {$priceAsCurrency->priceAsCurrency()}\n}";
 ?>
