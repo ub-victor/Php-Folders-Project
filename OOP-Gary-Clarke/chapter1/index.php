@@ -2,6 +2,7 @@
 
 class Product{
     public $name = "soap";
+    private $price = 200;
 
 }
 
