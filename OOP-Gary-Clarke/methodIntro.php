@@ -4,7 +4,8 @@ class Product{
     public $price;
 
     public function priceAsCurrency(){
-        return $this->price / 100;
+        $priceAsCurrency = $this->price / 100;
+        return $priceAsCurrency;
     }
 }
 
